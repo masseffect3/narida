@@ -245,7 +245,7 @@ function tally() {
 	//window.location.hash = makehash();
 	var hash = makehash();
 	window.location.replace(window.location.toString().replace(/#.*$/,'') + hash);
-	$('frenchlink').href = "?lang=fr"+hash;
+	//$('frenchlink').href = "?lang=fr"+hash;
 
 	var htmls = new Object();
 	var weight = 2 + chr.enc;
