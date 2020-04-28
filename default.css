@@ -1,0 +1,52 @@
+
+
+
+
+
+/*
+     FILE ARCHIVED ON 1:07:46 Jul 31, 2013 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 11:27:03 Nov 12, 2013.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+.alignright {
+	text-align: right;
+}
+
+
+.tooltip {
+	width: 256px;
+	z-index: 13000;
+}
+.tip {
+	border: 2px solid darkgreen;
+	background-color: lightgrey;
+	padding: 8px;
+}
+
+
+em.gear {
+	color: darkred;
+}
+em.evobonus {
+	color: #aaf;
+}
+em.attribute {
+	color: darkgreen;
+}
+
+.armor {
+	color: orange;
+}
+.shields {
+	color: #1060b0;
+}
+.barriers {
+	color: #b868d0;
+}
+.modtip {
+	cursor: help;
+	border-bottom: 1px dotted;
+}

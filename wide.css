@@ -1,0 +1,173 @@
+
+
+
+
+
+/*
+     FILE ARCHIVED ON 0:42:58 Jul 31, 2013 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 11:27:03 Nov 12, 2013.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+.mobileonly {
+	display: none;
+}
+
+body {
+	font-size: 8pt;
+	font-family: "verdana";
+	color: #333333;
+}
+h3 {
+	font-size: 12pt;
+	margin: 4px;
+}
+#skills {
+	display: inline-block;
+}
+.skilltree {
+	position: relative;
+	height: 130px;
+	width: 508px;
+	margin-top: 8px;
+}
+.skilltree .name {
+	top: 10px;
+	left: 4px;
+	width: 248px;
+	text-align: center;
+	font-weight: bold;
+	position: absolute;
+}
+.class, .race {
+	display: inline-block;
+	background-color: #dddddd;
+	cursor: pointer;
+	padding: 4px;
+	width: 92px;
+	text-align: center;
+}
+.race {
+	width: 128px;
+}
+.evo {
+	font-size: 8pt;
+	padding: 0px;
+	height: 60px;
+	width: 80px;
+	position: absolute;
+	cursor: pointer;
+}
+.evo0, .evo1, .evo2 {
+	top: 36px;
+}
+.evo3, .evo5, .evo7 {
+	top: 4px;
+}
+.evo4, .evo6, .evo8 {
+	top: 68px;
+}
+.evo0 {left: 4px;}
+.evo1 {left: 88px;}
+.evo2 {left: 172px;}
+.evo3, .evo4 {left: 256px;}
+.evo5, .evo6 {left: 340px;}
+.evo7, .evo8 {left: 424px;}
+
+
+.evo div {
+	padding: 4px;
+	height: 52px;
+	width: 80px;
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	border: 1px solid white;
+	background-color: #D9D9D9;
+}
+.evo .hover {
+	border-color: #a1a1a1;
+
+}
+.evo .selected {
+	background-color: #75B8FA;
+}
+
+#sheet {
+	padding: 0px 16px;
+	position: absolute;
+	left: 510px;
+	top: 8px;
+}
+#classname {
+	text-align: center;
+}
+.detail {
+	margin-top: 8px;
+	display: block;
+	width: 220px;
+	border-left: 4px solid grey;
+	padding: 0px 8px;
+	vertical-align: top;
+}
+.detailname {
+	font-size: larger;
+	font-weight: bold;
+}
+.attribute {
+	margin: 4px 0px;
+}
+.attributename {
+	font-weight: bold;
+}
+#details {
+	display: inline-block;
+	vertical-align: top;
+}
+.ability {
+	margin-top: 8px;
+	width: 220px;
+	vertical-align: top;
+	border-left: 4px solid grey;
+	padding: 0px 8px;
+}
+#description {
+	width: 540px;
+}
+#specials {
+	margin: 8px 0px;
+}
+
+.clickable {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+/* dialog */
+
+.dialog {
+	background-color: white;
+	padding: 16px;
+	border: 1px solid grey;
+	color: black;
+}
+.dialog table tr:hover {
+	background-color: lightgrey;
+}
+.dialog table th {
+	text-align: left;
+}
+.dialog table td {
+padding: 0px 2px;
+}
+
+
+#infobox {
+	padding: 8px;
+	text-align: center;
+	border: 1px solid black;
+	margin: 8px;
+	width: 500px;
+}
