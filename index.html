@@ -21,7 +21,7 @@
 </head>
 <body>
 <div style="margin: auto;">
-<div>Narida's Class Builder<select class="mobileonly" id="classraceselect">
+<div>Narida's Class Builder <select class="mobileonly" id="classraceselect">
 </select>&nbsp;<span id="classrace" class="clickable wideonly">choose class</span>
 </div>
 <div id="skills">
@@ -321,8 +321,7 @@
 <option value="3">IV</option>
 <option value="4">V</option>
 </select>
-<select id="weapon1mod1" name="weapon1mod1" onchange='onChangeSelectMod(1,1);'>
-</select>
+<select id="weapon1mod1" name="weapon1mod1" onchange="onChangeSelectMod(1,1);"></select>
 <select id="weapon1mod1lvl" name="weapon1mod1lvl" onchange='onChangeSelectModLvl(1,1);'>
 <option value="0">I</option>
 <option value="1">II</option>
@@ -436,7 +435,7 @@
 <div id="weapon0info" class="detail">
 <div class="detailname" id="weapon0name">
 </div>
-<div id="" class="attributename">Damage: <span id='weapon0dmg'>
+<div class="attributename">Damage: <span id='weapon0dmg'>
 </span>
 </div>
 <div id="weapon0bonuses" class="clear">
@@ -445,7 +444,7 @@
 <div id="weapon1info" class="detail">
 <div class="detailname" id="weapon1name">
 </div>
-<div id="" class="attributename">Damage: <span id='weapon1dmg'>
+<div class="attributename">Damage: <span id='weapon1dmg'>
 </span>
 </div>
 <div id="weapon1bonuses" class="clear">
@@ -750,7 +749,7 @@
 </div>
 </div>
 <div id="dialog" class="dialog wideonly">
-<div style="text-align: right;" class="clickable" onClick="hideDialog();">[X]</div>
+<div style="text-align: right;" class="clickable" onclick="hideDialog();">[X]</div>
 <div id="dialogheader">
 </div>
 <div id="dialogcontent">
